@@ -123,15 +123,6 @@ h3{
 }
 
 
-
-
-
-
-
-
-
-
-
 footer{
 	position:fixed;
 	bottom: 0;
@@ -139,6 +130,14 @@ footer{
 	width:100%;
 	height:70px;
 	background-color:#454545;
+}
+
+
+.textofooter{
+
+	max-width:1000px;
+	margin:0 auto;
+	
 }
 
 
@@ -151,10 +150,6 @@ h5 a{
 	margin-right:0;
 	
 }
-
-
-
-
 
 
 
