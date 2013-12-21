@@ -5,7 +5,7 @@ html{
 
 
 body{
-	margin:0 0 70px 0;
+	margin:0;
 }
 
 
@@ -37,18 +37,19 @@ h1{
 	letter-spacing:.3em;
 	color:white;
 	text-align:center;
+	font-size:1.3em;
 	
 	margin-top:0;
 }
 
 h1 hr {
 
-	width:20em;
+	width:15em;
 }/*¿¿¿¿POR QUÉ ESTO NO FUNCIONA???!!!*/
 
 
 .llarg{
-	width:20em;
+	width:15em;
 }
 
 hr{
@@ -61,11 +62,15 @@ hr{
 
 
 
-.sections{
+main{
 	max-width:1000px;
 	margin:0 auto;
 	
 
+}
+
+section{
+	padding:0 1em;
 }
 
 
@@ -85,10 +90,10 @@ h2{
 
 article{
 	
-	width:25%;
+	width:100%;
 	display:inline-block;
 	vertical-align:top;
-	padding:0 2.5em 2.5em 2.5em;
+	
 }
 
 article p{
@@ -130,9 +135,7 @@ h3{
 
 
 footer{
-	position:fixed;
-	bottom: 0;
-  	left: 0;
+
 	width:100%;
 	height:70px;
 	background-color:#454545;
