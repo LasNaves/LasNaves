@@ -11,35 +11,29 @@ body{
 
 header{
 
-	height:300px;
+	height:6em;
 	background-color:#1cba76;
-	padding-top:10%; /*única solución que he encontrado para "centrar" el título, pero no está centrado realmente */
-	
-
-
-
+	padding-top:8%; /*única solución que he encontrado para "centrar" el título, pero no está centrado realmente */
 }
 
 .maintitle{
 
-	max-width:30em;
+	max-width:60em;
 	/*background-color:red;*/
 	margin:auto;/*para centrarlo verticalmente, si ponemos position absolute al header y aquí relative se monta la liada padre*/
-	
-
 
 }
 
 
-h1{
-
-	font-family:Futura;
-	letter-spacing:.3em;
-	color:white;
-	text-align:center;
-	font-size:1.3em;
-	
-	margin-top:0;
+h1 {
+font-family: Futura;
+letter-spacing: .2em;
+color: white;
+text-align: center;
+font-size: 1.5em;
+line-height: 1.1;
+padding: 0;
+margin: 0;
 }
 
 h1 hr {
